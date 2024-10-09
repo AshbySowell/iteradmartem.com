@@ -47,16 +47,22 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-            <h1 class="text-5xl font-extrabold text-gray-900">Journey to Mastery</h1>
-            <p class="mt-4 text-xl text-gray-600">Prepare your child for a future in Robotics, AI, and Mars Exploration.</p>
+    <!-- Hero Section with Background Image -->
+    <section class="relative bg-gray-50">
+        <div class="absolute inset-0">
+            <img src="robots_on_mars.jpg" alt="Mars and Robot Image" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black opacity-50"></div> <!-- This adds a dark overlay to improve text readability -->
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+            <h1 class="text-5xl font-extrabold text-white">Journey to Mastery</h1>
+            <p class="mt-4 text-xl text-gray-100">Prepare your child for a future in Robotics, AI, and Mars Exploration.</p>
             <div class="mt-8">
                 <a href="#enroll" class="text-white bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg text-lg font-semibold">Enroll Now</a>
             </div>
         </div>
     </section>
+
+   
 
     <!-- Program Highlights Section -->
     <section id="about" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -85,51 +91,52 @@
         </div>
     </section>
 
-    <!-- Current Courses Section -->
-    <section id="current-courses" class="bg-white py-12">
-        <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-gray-900 text-center">Current Courses</h2>
-            <div class="mt-8">
-                <!-- Course 1: Programming Fundamentals -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-bold text-gray-900">IAD 201: Programming Fundamentals</h3>
-                    <p class="mt-4 text-lg text-gray-600">Ages: 10-12+</p>
-
-                    <!-- Course Description -->
+    <section id="workshop" class="bg-white py-12"> <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8"> <h2 class="text-3xl font-bold text-gray-900 text-center">Upcoming Workshop</h2> <div class="mt-8"> <!-- Workshop: Intro to Programming - Variables & Data Types --> <div class="bg-gray-50 p-6 rounded-lg shadow-md"> <h3 class="text-2xl font-bold text-gray-900">Intro to Programming Workshop: Variables & Data Types</h3> <p class="mt-4 text-lg text-gray-600">Ages: 10-12+</p>
+                    <!-- Workshop Description -->
                     <div class="mt-4">
-                        <h4 class="text-xl font-semibold text-gray-900">Course Description</h4>
+                        <h4 class="text-xl font-semibold text-gray-900">Workshop Description</h4>
                         <p class="mt-2 text-gray-600">
-                            This course introduces students to the fundamentals of programming, laying the groundwork for future learning in robotics, artificial intelligence, and advanced coding. Through a structured, fact-based approach, students will develop a solid understanding of key concepts like variables, loops, and functions. With each session, they’ll build critical problem-solving skills that will serve as a strong foundation for more complex technologies in the future.
+                            In this beginner-friendly workshop, students will be introduced to the fundamental concepts of programming through an exploration of variables and data types. Designed for ages 10-12, this session will break down complex topics into simple, engaging activities. By the end of the workshop, students will have a strong understanding of how to store and manipulate information in a program, setting the stage for more advanced coding.
                         </p>
                     </div>
-
-                    <!-- Course Duration -->
+        
+                    <!-- Workshop Details -->
                     <div class="mt-4">
-                        <h4 class="text-xl font-semibold text-gray-900">Course Duration</h4>
-                        <p class="mt-2 text-gray-600">12-week semester course starting on October 21st, 2024<br>
-                            The course will include scheduled breaks during the week of Thanksgiving (November 25th) and for winter holidays (week of December 23rd).
-                    </div>
-
-                     <!-- Tuition -->
-                    <div class="mt-4">
-                        <h4 class="text-xl font-semibold text-gray-900">Tuition</h4>
-                        <p class="mt-2 text-gray-600">$300 for the full semester (12 weeks)</p>
-                    </div>
-
-                    <!-- Location Information -->
-                    <div class="mt-6">
-                        <h4 class="text-xl font-semibold text-gray-900">Location</h4>
+                        <h4 class="text-xl font-semibold text-gray-900">Workshop Details</h4>
                         <p class="mt-2 text-gray-600">
-                            Bismarck Veterans Memorial Library, Study Room 1 (Lower Level)<br>
-                            515 N 5th St, Bismarck, ND 58501<br>
-                            If you're unsure, feel free to ask for directions at the information desk.
+                            - Date: Monday, October 21st<br>
+                            - Time: 4pm-5:30pm<br>
+                            - Location: Bismarck Veterans Memorial Library, Study Room 1 (Lower Level)<br>
+                            - Cost: $15 per student<br>
+                            - Capacity: Limited to 10 students
                         </p>
                     </div>
-
-                    <!-- Schedule Information -->
+                    
+        
+                    <!-- What You'll Learn -->
+                    <div class="mt-4">
+                        <h4 class="text-xl font-semibold text-gray-900">What You'll Learn</h4>
+                        <ul class="mt-2 text-gray-600 list-disc list-inside">
+                            <li>What variables are and how to use them in programming.</li>
+                            <li>Different types of data (numbers, text, etc.) and how to work with them.</li>
+                            <li>Hands-on practice writing simple programs that use variables and data types.</li>
+                        </ul>
+                    </div>
+        
+                    <!-- Who Should Attend -->
+                    <div class="mt-4">
+                        <h4 class="text-xl font-semibold text-gray-900">Who Should Attend?</h4>
+                        <p class="mt-2 text-gray-600">
+                            This workshop is perfect for kids who are curious about coding but have little to no prior experience. It’s a great way to test the waters of programming in a fun and supportive environment.
+                        </p>
+                    </div>
+        
+                    <!-- Registration Info -->
                     <div class="mt-6">
-                        <h4 class="text-xl font-semibold text-gray-900">Schedule</h4>
-                        <p class="mt-2 text-gray-600">Mondays 4:00 PM - 5:30 PM</p>
+                        <h4 class="text-xl font-semibold text-gray-900">How to Register</h4>
+                        <p class="mt-2 text-gray-600">
+                            To sign up, fill out the <a href="#enroll" class="text-blue-500 hover:text-blue-900">registration form</a>   below. Space is limited, so reserve your spot today!
+                        </p>
                     </div>
                 </div>
             </div>
